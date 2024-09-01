@@ -1,0 +1,52 @@
+<div class="hero-banner video-background-container">
+    <div
+      id="topoftheformTwo"
+      class="container animate__animated animate__bounceIn animate__slower"
+    >
+      <div class="row">
+        <div class="col-lg-12">
+          <div
+            class="banner-subtitle">
+            Videos
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-md-6 col-xl-3" *ngFor="let item of videoAudio; let i = index">
+              <div class="photo-container animate__animated animate__flip animate__slower">
+                <div class="photo">
+                  <div class="overlay">
+                    <div class="dbtbtn">
+                        <a href="#" target="_blank">
+                         vids here
+                        </a>
+                      </div>
+                  </div>
+                  <figure>
+                    <div class="webimage" id="player-{{i}}"></div>
+                  </figure>
+                </div>
+              </div>
+              <br />
+              <div class="animate__animated animate__flip animate__slower">
+              <div style="text-align: center">
+                <a [href]="'/details/video/' + getSanitizedUrlName(item.FriendlyUrlName)" class="dbtbtn">
+                  <!-- (click)="onNavigate($event, 'video', item.FriendlyUrlName)" -->
+                  {{ item.name }}  <br /> 
+                  Case Study
+                </a>
+              </div>
+            </div>
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+      </div>
+      <br />
+    </div>
+    <br />
+    <br />
+  </div>

@@ -1,0 +1,70 @@
+{
+    "webport": [
+      {
+        "name": "Ballroom Music",
+        "BigImage": "../assets/ballroommusic.webp",
+        "linkout": "https://www.ballroommusic.us",
+        "url":"ballroommusic"
+      },
+      {
+        "name": "JPmorgan",
+        "BigImage": "../assets/jpmorgan.webp.png",
+        "linkout": "https://www.jpmorgan.com",
+        "url":"jpmorgan"
+      },
+      {
+        "name": "Andromeda",
+        "BigImage": "../assets/andromeda.webp",
+        "linkout": "https://www.andromeda.network",
+        "url":"andromedia"
+      },
+      {
+        "name": "Mystique Boutiqe",
+        "BigImage": "../assets/mystqueboutiqe.webp",
+        "linkout": "https://www.mystiqueboutiquenyc.com",
+        "url":"mystique"
+      },
+      {
+        "name": "Guardhill",
+        "BigImage": "../assets/guardhill.webp",
+        "linkout": "https://guardhill.com",
+        "url":"guardhill"
+      },
+      {
+        "name": "Nuveen",
+        "BigImage": "../assets/nuveen.webp",
+        "linkout": "https://www.nuveen.com/en-us",
+        "url":"nuveen"
+      },
+      {
+        "name": "Homedax",
+        "BigImage": "../assets/homedex.webp",
+        "linkout": "https://homedax.com",
+        "url":"homedax"
+      },
+      {
+        "name": "Ovation",
+        "BigImage": "../assets/ovation.jpg",
+        "linkout": "https://www.ovationtravel.com",
+        "url":"ovation"
+      },
+      {
+        "name": "Ceo Services",
+        "BigImage": "../assets/ceoserv.jpg",
+        "linkout": "https://ceoservicesusa.com",
+        "url":"ceoservices"
+      },
+      {
+        "name": "infatuation",
+        "BigImage": "../assets/infatuation.jpg",
+        "linkout": "https://infatuation.cc",
+        "url":"infatuation"
+      },
+      {
+        "name": "Streaming Edge",
+        "BigImage": "../assets/streamingedge.jpg",
+        "linkout": "https://www.streamingedge.com",
+        "url":"streamingedge"
+      }
+    ]
+  }

@@ -1,0 +1,90 @@
+<div class="hero-banner contact-background-container">
+    <div id="topoftheformTwo" class="container animate__animated animate__fadeIn animate__slower">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="banner-subtitle" data-aos="zoom-out" data-aos-duration="2000">Lets Discuss</div>
+                <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+                    <div class="form-group" data-aos="fade-right" data-aos-duration="1000">
+                      <div *ngIf="contactForm.get('name')?.invalid && contactForm.get('name')?.touched">
+                        Name is required.
+                      </div>
+                        <input type="text" pInputText id="name" formControlName="name" placeholder="Name" class="form-control" />
+                    </div>
+                    <div class="form-group" data-aos="fade-left" data-aos-duration="2000">
+                      <div *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched">
+                        Email is required.
+                      </div>
+
+                        <input type="text" pInputText id="email" formControlName="email"  placeholder="Email" class="form-control" />
+                    </div>
+                    <div class="form-group" data-aos="fade-right" data-aos-duration="1000">
+                        <p-inputMask 
+                        mask="(999) 999-9999" 
+                        placeholder="(999) 999-9999" id="phone" formControlName="phone" />
+                    </div>
+                    <div class="form-group" data-aos="fade-left" data-aos-duration="2000">
+                        <input type="text" pInputText id-="city" formControlName="city"  placeholder="City" class="form-control" />
+                    </div>
+                    <div class="form-group" data-aos="fade-right" data-aos-duration="1000">
+                      <p-dropdown formControlName="state" id="state"  [options]="stateFlags" optionLabel="name" [style]="{'width':'100%'}"
+                      placeholder="Please Select a State" [showClear]="true">
+                        <ng-template let-option pTemplate="item">
+                          <div class="state-item">
+                            &nbsp; &nbsp;<img [src]="option.flag" class="state-flag" alt="{{option.name}}"/>
+                            <span>{{option.name}}</span>
+                          </div>
+                        </ng-template>
+                      </p-dropdown>
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <div class="form-group" data-aos="fade-left" data-aos-duration="2000">
+                      <div *ngIf="contactForm.get('country')?.invalid && contactForm.get('country')?.touched">
+                        Country selection is required.
+                      </div>
+                      <br />
+                        <p-dropdown 
+                        [options]="countries" 
+                        optionLabel="name" 
+                        [showClear]="true"
+                        [style]="{'width':'100%'}"
+                        formControlName="country" id="country" 
+                        placeholder="Please Select a Country">
+                        <ng-template let-country pTemplate="item">
+                          <div class="country-item">
+                            <div [innerHTML]="country.flag"></div>
+                            <div>{{ country.name }}</div>
+                          </div>
+                        </ng-template>
+                      </p-dropdown>
+                      <!-- <div *ngIf="selectedCountry">
+                        <label>Selected Country Flag:</label>
+                        <div class="selected-country-flag" [innerHTML]="selectedCountry.flag"></div>
+                      </div> -->
+               
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <div class="form-group" data-aos="fade-up" data-aos-duration="2000">
+                      <div *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched">
+                        Message is required.
+                      </div>
+                      <textarea rows="10" cols="30" pInputTextarea id="message" formControlName="message" placeholder="Your message"></textarea>
+                    </div>
+                    <button data-aos="fade-right" data-aos-duration="2000" type="submit" class="dbtbtn">Send</button>
+                    <input type="reset" data-aos="fade-right" data-aos-duration="2000" (click)="resetForm()" id="subcontact" value="Reset" class="dbtbtn" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+</div>

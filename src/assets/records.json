@@ -1,0 +1,162 @@
+[
+  {
+    "name": "ceoservices",
+    "htmlContent": "<p class='dbtweb-card-text'>Planned website development, converting mockups into usable web presence with HTML, JavaScript, AJAX and JSON coding. Coded website with HTML, CSS, JavaScript and Jquery languages.</p><p class='dbtweb-card-text'>Conducted testing and review of website design for responivness, clarity and effectiveness. Built and styled new mobile-friendly website, transitioning legacy presentations to simultaneous easy-to-use versions. Developed functional digital design concepts across various platforms to streathen comapny brand and identity.</p><p class='dbtweb-card-text'>Established presentation consistency across Chrome, Safari, Firefox and other common browser interfaces.</p><p class='dbtweb-card-text'>Conducted functional testing over course of web development lifecycle. Generated web hosting presence to accommodate specified needs, uploading and maintaining files on account. Adhered to SEO best practices while designing site and public-facing online deliverables. Applied lastest emerging technology, software and project application trends to update and maintain site applicability.</p>",
+    "casestudy": "Ceo Services",
+    "Url": "https://ceoservicesusa.com",
+    "images": [
+      "../assets/ceoserv.jpg",
+      "../assets/ceoserv2.jpg",
+      "../assets/ceoserv3.jpg",
+      "../assets/ceoserv4.jpg"
+    ]
+  },
+  {
+    "name": "ballroommusic",
+    "htmlContent": "<p class='dbtweb-card-text'>Collected, defined and translated user requirements into project designs and implementation plans. Conceived and built optimized all pages in HTML and CSS for integration and cross-browser compatibility. Developed the whole site using Visual Studio 2022.<p><p class='dbtweb-card-text'>Reviewed code to validate structures, assess security and verify browser, device and operating system compatibility. Monitored database performance to keep workflows running smoothly. Planned and engineered RESTful web services to manipulate dynamic datasets.</p><p class='dbtweb-card-text'>Employed coding practices based on commonly accepted standards to establish site layout and user interface. Employed ASP.net Core 7.0 and other technologies like jquery, json and AJAX to optimize corporate presence.</p>",
+    "casestudy": "Ballroom Music",
+    "Url": "https://www.ballroommusic.us",
+    "images": [
+      "../assets/ballroommusic.webp",
+      "../assets/ballroommusic2.jpg",
+      "../assets/ballroommusic3.jpg"
+    ]
+  },
+  {
+    "name": "ovation",
+    "htmlContent": "<p class='dbtweb-card-text'>Researched and integrated design strategies, product specifications, development schedules and user expectations into product capabilities.</p><p class='dbtweb-card-text'>Participated in highly complex projects with managers. Kept leadership up-to-date on current issues and proposed recommendations.</p><p class='dbtweb-card-text'>Employed coding practices based on commonly accepted standards to establish site layout and user interface. Developed landing pages and online applications using Visual Studio 2012.</p><p class='dbtweb-card-text'>Demonstrated respect, friendliness and willingness to help wherever needed. Devoted special emphasis to punctuality and worked to maintain outstanding attendance record, consistently arriving to work ready to start immediately.</p>",
+    "casestudy": "Ovation",
+    "Url": "https://www.amexglobalbusinesstravel.com/ovation/?modal=ovation",
+    "images": [
+      "../assets/splashpage_mock.png",
+      "../assets/form_mock.jpg",
+      "../assets/form_mock_NegotiatedRates.png",
+      "../assets/form_mock_CorpRespon.png"
+    ]
+  },
+  {
+    "name": "jpmorgan",
+    "htmlContent": "<p class='dbtweb-card-text'>Quickly learned new skills and applied them to daily tasks, improving efficiency and productivity. Monitored database performance to keep workflows running smoothly. Completed analysis, design, and testing phases of software slash web development life cycle.</p><p class='dbtweb-card-text'>Kept leadership up-to-date on current issues and proposed recommendations. Performed vulnerability patching and investigated and militated system weaknesses.</p><p class='dbtweb-card-text'>Participated in highly complex projects with mangers. Developed user-oriented visuals and features using front-end languages to increase site traffic. Planned and engineered RESTful web services to manipulate dynamic datasets. Employed coding practices based on commonly accepted standards to establish site layout and user interfaces. Reviewed code to validate structures, asses security and verify browser, device and operating system compatibility. Created plans and communicated deadlines to ensure projects were completed on time.</p>",
+    "casestudy": "JP Morgan",
+    "Url": "https://www.jpmorgan.com/global",
+    "images": [
+      "../assets/jpmorgan.webp.png",
+      "../assets/jpmorgan2.jpg",
+      "../assets/jpmorgan3.jpg"
+    ]
+  },
+  {
+    "name": "guardhill",
+    "htmlContent": "<p class='dbtweb-card-text'>Quickly learned new skills and applied them to daily tasks, improving efficiency and productivity. Monitored database performance to keep workflows running smoothly. Completed analysis, design, and testing phases of software slash web development life cycle.</p><p class='dbtweb-card-text'>Kept leadership up-to-date on current issues and proposed recommendations. Performed vulnerability patching and investigated and militated system weaknesses.</p><p class='dbtweb-card-text'>Participated in highly complex projects with mangers. Developed user-oriented visuals and features using front-end languages to increase site traffic. Planned and engineered RESTful web services to manipulate dynamic datasets. Employed coding practices based on commonly accepted standards to establish site layout and user interfaces. Reviewed code to validate structures, asses security and verify browser, device and operating system compatibility. Created plans and communicated deadlines to ensure projects were completed on time.</p>",
+    "casestudy": "Guardhill",
+    "Url": "https://guardhill.com",
+    "images": [
+      "../assets/guardhill.webp",
+      "../assets/guardhill2.jpg",
+      "../assets/guardhill3.jpg",
+      "../assets/guardhill4.jpg"
+    ]
+  },
+  {
+    "name": "andromedia",
+    "htmlContent": "<p class='dbtweb-card-text'>Designed user interface that engaged multiple senses and produced immersive experiences. Managed aspects of Android app lifecycle from research and planning through deployment and post-launch support. Published one Android app from inception to deployment. Utilized comprehensive knowledge of mobile landscape, emerging technologies and innovations to remain on the cutting edge of Android market.</p><p class='dbtweb-card-text'>Employed third-party APIs to facilitate seamless access to external in-app cloud data. Developed landing pages, dashboards and online applications using Visual Studio 2017 and Android Studio.</p><p class='dbtweb-card-text'>Planned and engineered RESTful web services to manipulate dynamic datasets. Completed full redesigns of exiting websites to improve navigation, enhance visuals and strengthen search engine rankings. Conceived and built optimized landing pages in HTML and CSS for integration and cross-browser compatibility.</p>",
+    "casestudy": "Andromedia",
+    "Url": "https://www.andromeda.network",
+    "images": [
+      "../assets/andromeda.webp",
+      "../assets/andrmedia2.jpg",
+      "../assets/andrmedia3.jpg"
+    ]
+  },
+  {
+    "name": "mystique",
+    "htmlContent": "<p class='dbtweb-card-text'>Planned website development, converting mockups into usable web presence with HTML, Jquery, AJAX and JSON coding.</p><p class='dbtweb-card-text'>Built and styled new mobile-friendly websites, transitioning legacy presentations to simultaneous easy-to-use versions. Established presentation consistency across Chrome, Safari, Firefox and other common browser interfaces.</p>",
+    "casestudy": "Mystique",
+    "Url": "https://www.mystiqueboutiquenyc.com/password",
+    "images": [
+      "../assets/mystqueboutiqe.webp"
+    ]
+  },
+  {
+    "name": "nuveen",
+    "htmlContent": "<p class='dbtweb-card-text'>Discussed site and app requirements with clients to produce actionable development plans and budgets. Pulled from ASP.net Web Forms, SQL, Jquery and other back-end library knowledge to bolster programming resources.</p><p class='dbtweb-card-text'>Engaged with clients to plan, optimize and repair site issues and queries based on ASP.net core technology. Employed ASP.net Core and other technology to make line-code repairs and optimize corporate presence.</p>",
+    "casestudy": "Nuveen",
+    "Url": "https://www.nuveen.com/en-us",
+    "images": [
+      "../assets/nuveen.webp",
+      "../assets/nuveen2.jpg",
+      "../assets/nuveen3.jpg"
+    ]
+  },
+  {
+    "name": "homedax",
+    "htmlContent": "<p class='dbtweb-card-text'>Quickly learned new skills and applied them to daily tasks, improving efficiency and productivity. Monitored database performance to keep workflows running smoothly. Completed analysis, design, and testing phases of software slash web development life cycle.</p><p class='dbtweb-card-text'>Kept leadership up-to-date on current issues and proposed recommendations. Performed vulnerability patching and investigated and militated system weaknesses.</p><p class='dbtweb-card-text'>Participated in highly complex projects with mangers. Developed user-oriented visuals and features using front-end languages to increase site traffic. Planned and engineered RESTful web services to manipulate dynamic datasets. Employed coding practices based on commonly accepted standards to establish site layout and user interfaces. Reviewed code to validate structures, asses security and verify browser, device and operating system compatibility. Created plans and communicated deadlines to ensure projects were completed on time.</p>",
+    "casestudy": "Homedax",
+    "Url": "https://homedax.com",
+    "images": [
+      "../assets/homedex.webp",
+      "../assets/homedex2.jpg",
+      "../assets/homedex6.jpg",
+      "../assets/homedex4.jpg",
+      "../assets/homedex5.jpg"
+    ]
+  },
+  {
+    "name": "infatuation",
+    "htmlContent": "<p class='dbtweb-card-text'>Quickly learned new skills and applied them to daily tasks, improving efficiency and productivity. Monitored database performance to keep workflows running smoothly. Completed analysis, design, and testing phases of software slash web development life cycle.</p><p class='dbtweb-card-text'>Kept leadership up-to-date on current issues and proposed recommendations. Performed vulnerability patching and investigated and militated system weaknesses.</p><p class='dbtweb-card-text'>Participated in highly complex projects with mangers. Developed user-oriented visuals and features using front-end languages to increase site traffic. Planned and engineered RESTful web services to manipulate dynamic datasets. Employed coding practices based on commonly accepted standards to establish site layout and user interfaces. Reviewed code to validate structures, asses security and verify browser, device and operating system compatibility. Created plans and communicated deadlines to ensure projects were completed on time.</p>",
+    "casestudy": "Infatuation",
+    "Url": "https://infatuation.cc",
+    "images": [
+      "../assets/infatuation.jpg"
+    ]
+  },
+  {
+    "name": "streamingedge",
+    "htmlContent": "<p class='dbtweb-card-text'>Quickly learned new skills and applied them to daily tasks, improving efficiency and productivity. Monitored database performance to keep workflows running smoothly. Completed analysis, design, and testing phases of software slash web development life cycle.</p><p class='dbtweb-card-text'>Kept leadership up-to-date on current issues and proposed recommendations. Performed vulnerability patching and investigated and militated system weaknesses.</p><p class='dbtweb-card-text'>Participated in highly complex projects with mangers. Developed user-oriented visuals and features using front-end languages to increase site traffic. Planned and engineered RESTful web services to manipulate dynamic datasets. Employed coding practices based on commonly accepted standards to establish site layout and user interfaces. Reviewed code to validate structures, asses security and verify browser, device and operating system compatibility. Created plans and communicated deadlines to ensure projects were completed on time.</p>",
+    "casestudy": "Streaming Edge",
+    "Url": "https://www.streamingedge.com",
+    "images": [
+      "../assets/streamingedge.jpg"
+    ]
+  },
+  {
+    "name": "DBTWEBintro",
+    "htmlContent": "<p class='dbtweb-card-text'></p>",
+    "casestudy": "DBT WEB intro",
+    "type": "video",
+    "videourl": "https://www.youtube.com/embed/OejaOomvKbM?si=STo1w499thED_7QH",
+    "Url": "#"
+  },
+  {
+    "name": "FlirtyFriends",
+    "htmlContent": "<p class='dbtweb-card-text'></p>",
+    "casestudy": "Flirty Friends Ad",
+    "type": "video",
+    "videourl": "https://www.youtube.com/embed/f72l4ZcOtPA?si=cniVqf9ulhBVp1sh",
+    "Url": "#"
+  },
+  {
+    "name": "CharlieKimball",
+    "htmlContent": "<p class='dbtweb-card-text'></p>",
+    "casestudy": "Charlie Kimballs story",
+    "type": "video",
+    "videourl": "https://www.youtube.com/embed/QECKvL49abA?si=azKSlC_QN_emXN3x",
+    "Url": "#"
+  },
+  {
+    "name": "Lorraine-Meets-Stapleton",
+    "htmlContent": "<p class='dbtweb-card-text'></p>",
+    "casestudy": "Lorraine Meets Stapleton",
+    "type": "video",
+    "videourl": "https://www.youtube.com/embed/DUo9hwnA4dk?si=25MFqcOGYGfQC2Yx",
+    "Url": "#"
+  },
+  {
+    "name": "The-last-snowstorm-for-2024",
+    "htmlContent": "<p class='dbtweb-card-text'></p>",
+    "casestudy": "The last snow storm for 2024",
+    "type": "video",
+    "videourl": "https://www.youtube.com/embed/mqjd3MVrRgc?si=NrfNPCNHhKX6dhwo",
+    "Url": "#"
+  }
+]

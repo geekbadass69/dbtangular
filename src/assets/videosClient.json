@@ -1,0 +1,10 @@
+{
+    "videoAudio": [
+        { "name": "The last snow storm for 2024", "url": "https://content.jwplatform.com/videos/OcX4jtMH-N2UHtx6N.mp4", "thumbnail": "https://cdn.jwplayer.com/thumbs/OcX4jtMH-1280.jpg", "FriendlyUrlName": "The-last-snowstorm-for-2024" },
+        { "name": "Lorraine Meets Stapleton", "url": "https://content.jwplatform.com/videos/GSSGy6iB-UYNDTwA1.mp4", "thumbnail": "https://cdn.jwplayer.com/thumbs/GSSGy6iB-1920.jpg", "FriendlyUrlName": "Lorraine-Meets-Stapleton" },
+        { "name": "Charlie Kimballs story", "url": "https://content.jwplatform.com/videos/LvWVZDw5-UYNDTwA1.mp4", "thumbnail": "https://cdn.jwplayer.com/thumbs/LvWVZDw5-1920.jpg", "FriendlyUrlName": "CharlieKimball" },
+        { "name": "Flirty Friends Ad", "url": "https://content.jwplatform.com/videos/ZFdPiBAB-UYNDTwA1.mp4", "thumbnail": "https://cdn.jwplayer.com/thumbs/ZFdPiBAB-1920.jpg", "FriendlyUrlName": "FlirtyFriends" },
+        { "name": "DBT Web Intro", "url": "https://content.jwplatform.com/videos/zufDPLta-UYNDTwA1.mp4", "thumbnail": "https://cdn.jwplayer.com/thumbs/zufDPLta-1920.jpg", "FriendlyUrlName": "DBTWEBintro" }
+
+    ]
+  }

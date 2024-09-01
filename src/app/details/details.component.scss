@@ -1,0 +1,19 @@
+  .p-galleria-item-prev, .p-galleria-item-next {
+    background-color: #1795cc !important;
+    border: none;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animated-image {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  
+ 

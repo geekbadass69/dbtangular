@@ -1,0 +1,59 @@
+<div class="hero-banner details-background-container">
+  <div id="topoftheformTwo" class="container animate__animated animate__fadeIn">
+    <div class="row" *ngIf="record">
+      <div class="col-lg-12">
+        <div class="banner-subtitle">
+          Case Study for <strong>{{ record.casestudy }}</strong>
+        </div>
+      </div>
+      <br />
+      <br />
+
+      <!-- Portfolio Case Study -->
+      <div *ngIf="!isVideo" class="dbtwebcard mb-3">
+        <div class="dbtwebcard-img-top-port">
+          <p-galleria  [value]="record?.images" [numVisible]="0" [circular]="true" [showItemNavigators]="true" [showThumbnails]="false" [responsiveOptions]="responsiveOptions" (activeIndexChange)="onIndexChange($event)">
+            <ng-template pTemplate="item" class="animated-image" let-item let-index="index">
+                  <img [src]="item"  style="width: 100%;" />
+            </ng-template>
+        </p-galleria>
+        </div>
+        <div class="dbtweb-card-body">
+          <h5 class="dbtweb-card-title">
+            Case Study for
+            <a href="{{ record.Url }}" target="_blank" class="serices weblink">{{ record.casestudy }}</a>
+            at DBTWeb.com
+          </h5>
+          <div [innerHTML]="record.htmlContent"></div>
+        </div>
+      </div>
+
+      <!-- Video Case Study -->
+      <div *ngIf="isVideo" class="dbtwebcard mb-3">
+<iframe
+[src]="getSafeUrl(record.videourl)" 
+  width="99%"
+  height="615"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  referrerpolicy="strict-origin-when-cross-origin">
+</iframe>
+        <div class="dbtwebcard-img-top-port">
+        </div>
+        <div class="dbtweb-card-body">
+          <h5 class="dbtweb-card-title">
+            Case Study for {{ record.casestudy }} at DBTWeb.com
+          </h5>
+          <div [innerHTML]="record.htmlContent"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br />
+  <br />
+  <br />
+</div>
+

@@ -1,0 +1,47 @@
+// .scroll-to-top {
+
+//     background-color: #1795cc;
+//     color: #fff;
+//     opacity: 0;
+//     // transition: opacity .6s ease-in-out;
+//     z-index: 999;
+//     position: fixed;
+//     right: 20px;
+//     bottom: 20px;
+//     width: 50px;
+//     height: 50px;
+//     box-sizing: border-box;
+//     border-radius: 10px
+  
+//    }
+  
+  
+  
+// .show-scrollTop {
+//     opacity: 1;
+//     transition: all .2s ease-in-out;
+  
+// }
+.scroll-to-top {
+
+    background-color: #1795cc;
+    color: #fff;
+    opacity: 0;
+    transition: opacity .6s ease-in-out;
+    z-index: 999;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: #1795cc;
+    border-radius: 10px;
+    outline: none;
+  
+   }
+  
+ .show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+   }

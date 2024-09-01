@@ -1,0 +1,83 @@
+<div id="logo" class="logo">
+  <p-sidebar [(visible)]="sidebarVisible" [modal]="true" 
+  [dismissible]="true">
+    <div style="margin-left: 15px;">
+    <p-avatar image="../assets/small_tony.jpg" shape="circle" size="normal" class="animate__animated animate__fadeIn animate__slow" />
+      <span style="margin-left: 10px;color: #fff;padding: 5px;" class="animate__animated animate__fadeIn animate__slow">
+         <a href="/about"    
+         pTooltip
+         tooltipPosition="bottom"
+         [escape]="false"
+         tooltipStyleClass="custom-tooltip"
+         tooltipEvent="hover"
+         pTooltip="About Full Stack web Developer Tony Trapp"
+         alt="About Full Stack web Developer Tony Trapp">Tony Trapp</a>
+     </span>
+    </div>
+    <nav id="dbtmenu" class="navik-menu-fixed animate__animated animate__fadeIn animate__slow">
+      <ul>
+          <li class="sidebarGen"><a href="/"     
+            pTooltip
+            tooltipPosition="bottom"
+            [escape]="false"
+            tooltipStyleClass="custom-tooltip"
+            tooltipEvent="hover"
+            pTooltip="DBT Web home"
+            alt="DBT Web home">Home</a></li>
+          <li class="sidebarGen"><a href="/about"    
+            pTooltip
+            tooltipPosition="bottom"
+            [escape]="false"
+            tooltipStyleClass="custom-tooltip"
+            tooltipEvent="hover"
+            pTooltip="About Full Stack web Developer Tony Trapp"
+            alt="About Full Stack web Developer Tony Trapp">About Me</a></li>
+          <li class="sidebarGen"><a href="/tech"     
+            pTooltip
+            tooltipPosition="bottom"
+            [escape]="false"
+            tooltipStyleClass="custom-tooltip"
+            tooltipEvent="hover"
+            pTooltip="Technologies I work with"
+            alt="Technologies I work with">Technologies</a></li>
+          <li class="sidebarGen"><a href="/services"    
+            pTooltip
+            tooltipPosition="bottom"
+            [escape]="false"
+            tooltipStyleClass="custom-tooltip"
+            tooltipEvent="hover"
+            pTooltip="Services I Provide"
+            alt="Services I Provide">Services I Provide</a></li>
+          <li class="sidebarGen"><a href="/web"    
+            pTooltip
+            tooltipPosition="bottom"
+            [escape]="false"
+            tooltipStyleClass="custom-tooltip"
+            tooltipEvent="hover"
+            pTooltip="Portfolio Entries for websites"
+            alt="Portfolio Entries for websites">Web</a></li>
+          <li class="sidebarGen"><a href="/video"    
+            pTooltip
+            tooltipPosition="bottom"
+            [escape]="false"
+            tooltipStyleClass="custom-tooltip"
+            tooltipEvent="hover"
+            pTooltip="Portfolio Entries for Videos"
+            alt="Portfolio Entries for Videos">Video</a></li>
+          <li class="sidebarGen"><a href="/contact-DBT"       
+            pTooltip
+            tooltipPosition="bottom"
+            [escape]="false"
+            tooltipStyleClass="custom-tooltip"
+            tooltipEvent="hover"
+            pTooltip="Contact me and discuss your new project"
+            alt="Contact me and discuss your new project">Contact Me</a></li>
+      </ul>
+  </nav>
+</p-sidebar>
+  <div style="text-align: center;">
+    <p-button [rounded]="true" [outlined]="true" size="large" (click)="sidebarVisible=true" icon="fa-sharp fa-solid fa-bars" id="ham">
+    </p-button>
+      <a href="/"><img src="../../../assets/logo.png" alt="logo"></a>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+<div class="hero-banner tech-background-container">
+  <div
+    id="topoftheformTwo"
+    class="container animate__animated animate__fadeIn animate__slow"
+  >
+    <div class="row">
+      <div class="col-lg-12">
+        <div
+          class="banner-subtitle"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
+          TECHNOGIES DBTweb WORKs WITH
+        </div>
+        <br />
+        <br />
+        <div class="genpageTitle" data-aos="fade-left" data-aos-duration="2000">
+          Mouse over or touch each word for the description and click or touch to read more.
+        </div>
+        <br />
+        <div class="rowTech">
+  <div class="col-6 col-sm-4 dbtweb-card-text-tech" *ngFor="let technology of technologies" data-aos="zoom-in-up" data-aos-duration="2000" style="padding: 20px 10px 20px 17px;text-align:center;">
+    <a class="sericesTech" href="{{ technology.url }}" target="_blank" pTooltip="{{ technology.description }}" tooltipPosition="top">
+
+      <img src="{{ technology.image }}" alt="{{ technology.name }}" style="width: 75px; height: 75px;" /><br />
+      {{ technology.name }}
+    </a>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
+  <br />

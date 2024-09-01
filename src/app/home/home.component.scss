@@ -1,0 +1,232 @@
+// .hero-banner-bg-11 {
+//     background-image: url(../../assets/homebackground4a.webp);
+// }
+.headertext{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 15;
+    color: white;
+    font-size: 20px;
+    animation: fadeIn 3s ease-in-out;
+  }
+  @media (min-width: 768px) {
+    .headertext {
+      font-size: 2rem;
+        letter-spacing: 5.5px;
+        margin-bottom: -12px;
+    }
+}
+@keyframes fadeInOut {
+  0%, 25%, 60%, 75%, 100% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+}
+
+#head1, #head2, #head3, #head4, #head5 {
+  opacity: 0;
+}
+
+#head1 {
+  animation: fadeInOut 20s infinite;
+  animation-delay: 2s;
+}
+
+#head2 {
+  animation: fadeInOut 20s infinite;
+  animation-delay: 5s;
+}
+
+#head3 {
+  animation: fadeInOut 20s infinite;
+  animation-delay: 10s;
+}
+
+#head4 {
+  animation: fadeInOut 20s infinite;
+  animation-delay: 15s;
+}
+
+#head5 {
+  animation: fadeInOut 20s infinite;
+  animation-delay: 20s;
+}
+// .light {
+//     position: absolute;
+//     width: 0px;
+//     opacity: .75;
+//     background-color: white;
+//     box-shadow: #e9f1f1 0px 0px 20px 2px;
+//     opacity: 0;
+//     top: 100vh;
+//     bottom: 0px;
+//     left: 0px;
+//     right: 0px;
+//     margin: auto;
+// }
+// .x1{
+//     -webkit-animation: floatUp 4s infinite linear;
+//     -moz-animation: floatUp 4s infinite linear;
+//     -o-animation: floatUp 4s infinite linear;
+//     animation: floatUp 4s infinite linear;
+//      -webkit-transform: scale(1.0);
+//      -moz-transform: scale(1.0);
+//      -o-transform: scale(1.0);
+//     transform: scale(1.0);
+//   }
+  
+//   .x2{
+//     -webkit-animation: floatUp 7s infinite linear;
+//     -moz-animation: floatUp 7s infinite linear;
+//     -o-animation: floatUp 7s infinite linear;
+//     animation: floatUp 7s infinite linear;
+//     -webkit-transform: scale(1.6);
+//     -moz-transform: scale(1.6);
+//     -o-transform: scale(1.6);
+//     transform: scale(1.6);
+//     left: 15%;
+//   }
+  
+//   .x3{
+//     -webkit-animation: floatUp 2.5s infinite linear;
+//     -moz-animation: floatUp 2.5s infinite linear;
+//     -o-animation: floatUp 2.5s infinite linear;
+//     animation: floatUp 2.5s infinite linear;
+//     -webkit-transform: scale(.5);
+//     -moz-transform: scale(.5);
+//     -o-transform: scale(.5);
+//     transform: scale(.5);
+//     left: -15%;
+//   }
+  
+//   .x4{
+//     -webkit-animation: floatUp 4.5s infinite linear;
+//     -moz-animation: floatUp 4.5s infinite linear;
+//     -o-animation: floatUp 4.5s infinite linear;
+//     animation: floatUp 4.5s infinite linear;
+//     -webkit-transform: scale(1.2);
+//     -moz-transform: scale(1.2);
+//     -o-transform: scale(1.2);
+//     transform: scale(1.2);
+//     left: -34%;
+//   }
+  
+//   .x5{
+//     -webkit-animation: floatUp 8s infinite linear;
+//     -moz-animation: floatUp 8s infinite linear;
+//     -o-animation: floatUp 8s infinite linear;
+//     animation: floatUp 8s infinite linear;
+//     -webkit-transform: scale(2.2);
+//     -moz-transform: scale(2.2);
+//     -o-transform: scale(2.2);
+//     transform: scale(2.2);
+//     left: -57%;
+//   }
+  
+//   .x6{
+//     -webkit-animation: floatUp 3s infinite linear;
+//     -moz-animation: floatUp 3s infinite linear;
+//     -o-animation: floatUp 3s infinite linear;
+//     animation: floatUp 3s infinite linear;
+//     -webkit-transform: scale(.8);
+//     -moz-transform: scale(.8);
+//     -o-transform: scale(.8);
+//     transform: scale(.8);
+//     left: -81%;
+//   }
+  
+//   .x7{
+//     -webkit-animation: floatUp 5.3s infinite linear;
+//     -moz-animation: floatUp 5.3s infinite linear;
+//     -o-animation: floatUp 5.3s infinite linear;
+//     animation: floatUp 5.3s infinite linear;
+//     -webkit-transform: scale(3.2);
+//     -moz-transform: scale(3.2);
+//     -o-transform: scale(3.2);
+//     transform: scale(3.2);
+//     left: 37%;
+//   }
+  
+//   .x8{
+//     -webkit-animation: floatUp 4.7s infinite linear;
+//     -moz-animation: floatUp 4.7s infinite linear;
+//     -o-animation: floatUp 4.7s infinite linear;
+//     animation: floatUp 4.7s infinite linear;
+//     -webkit-transform: scale(1.7);
+//     -moz-transform: scale(1.7);
+//     -o-transform: scale(1.7);
+//     transform: scale(1.7);
+//     left: 62%;
+//   }
+  
+//   .x9{
+//     -webkit-animation: floatUp 4.1s infinite linear;
+//     -moz-animation: floatUp 4.1s infinite linear;
+//     -o-animation: floatUp 4.1s infinite linear;
+//     animation: floatUp 4.1s infinite linear;
+//     -webkit-transform: scale(0.9);
+//     -moz-transform: scale(0.9);
+//     -o-transform: scale(0.9);
+//     transform: scale(0.9);
+//     left: 85%;
+//   }
+//   @-webkit-keyframes floatUp{
+//     0%{top: 100vh; opacity: 0;}
+//     25%{opacity: 1;}
+//     50%{top: 0vh; opacity: .8;}
+//     75%{opacity: 1;}
+//     100%{top: -100vh; opacity: 0;}
+//   }
+//   @-moz-keyframes floatUp{
+//     0%{top: 100vh; opacity: 0;}
+//     25%{opacity: 1;}
+//     50%{top: 0vh; opacity: .8;}
+//     75%{opacity: 1;}
+//     100%{top: -100vh; opacity: 0;}
+//   }
+//   @-o-keyframes floatUp{
+//     0%{top: 100vh; opacity: 0;}
+//     25%{opacity: 1;}
+//     50%{top: 0vh; opacity: .8;}
+//     75%{opacity: 1;}
+//     100%{top: -100vh; opacity: 0;}
+//   }
+//   @keyframes floatUp{
+//     0%{top: 100vh; opacity: 0;}
+//     25%{opacity: 1;}
+//     50%{top: 0vh; opacity: .8;}
+//     75%{opacity: 1;}
+//     100%{top: -100vh; opacity: 0;}
+//   }
+  // .background-container {
+  //   width: 100%;
+  //   height: 100%;
+  //   background-size: cover;
+  //   background-position: center;
+  //   animation: fadeIn 2s ease-in-out, backgroundChange 15s infinite ease-in-out;
+  // }
+  // @keyframes backgroundChange {
+  //   0% {
+  //     background-image: url("../../assets/abstract-background-of-motion-speed-lines-design-free-photo.jpg");
+  //   }
+  //   33% {
+  //     background-image: url("../../assets/abstract-futuristic-background-with-glowing-blue-light-effect-high-speed-hi-tech-abstract-technology-background-concept-free-photo.jpg");
+  //   }
+  //   66% {
+  //     background-image: url("../../assets/abstract-background-of-motion-speed-lines-design-free-photo.jpg");
+  //   }
+  //   80% {
+  //     background-image: url("../../assets/homebackground4a.webp");
+  //   }
+  //   100% {
+  //     background-image: url("../../assets/abstract-background-of-motion-speed-lines-design-free-photo.jpg");
+  //   }
+  // }
+  
+
+

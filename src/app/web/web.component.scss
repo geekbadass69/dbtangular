@@ -1,0 +1,51 @@
+.rowTech {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  background-color: rgba(3, 41, 66, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; /* Ensures the overlay respects the border radius */
+}
+.photo-container {
+  position: relative;
+  display: block;
+  border-radius: 12px; 
+  // overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+.photo {
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+
+}
+.photo-container:hover .photo {
+  transform: scale(1.1);
+  box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #3aaee7, 0 0 82px #3aaee7, 0 0 92px #3aaee7, 0 0 102px #3aaee7, 0 0 151px #3aaee7 !important;
+  border-radius: 10px; 
+}
+.photo-container:hover .overlay {
+  opacity: 1;
+  
+}
+.webimage{
+  display: block;
+  width: 100%;
+  height: auto; /* Ensures the image respects the border radius */
+  border-radius: 10px;
+}

@@ -1,0 +1,50 @@
+<div class="hero-banner web-background-container">
+  <div
+    id="topoftheformTwo"
+    class="container animate__animated animate__zoomIn animate__slower"
+  >
+    <div class="row">
+      <div class="col-lg-12">
+        <div
+          class="banner-subtitle animate__animated animate__bounceIn animate__slower">
+          Web sites
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-md-6 col-xl-3 animate__animated animate__flip animate__slower" *ngFor="let webport of webport">
+            <div class="photo-container">
+              <div class="photo">
+                <div class="overlay">
+                  <div class="dbtbtn">
+                    <a href="{{ webport.linkout }}" target="_blank">{{
+                      webport.name
+                    }}</a>
+                  </div>
+                </div>
+                <figure>
+                  <img class="webimage" src="{{ webport.BigImage }}" />
+                </figure>
+              </div>
+            </div>
+            <div style="text-align: center">
+              <a href="details/portfolio/{{webport.url}}" class="dbtbtn">
+                <!-- href="#" (click)="navigateTo('details/{{ webport.url }}');$event.preventDefault()" -->
+                <!-- (click)="onNavigate($event, 'portfolio', webport.url)"  -->
+                {{ webport.name }} <br />
+                Case Study
+              </a>
+            </div>
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+    </div>
+    <br />
+  </div>
+  <br />
+  <br />
+</div>

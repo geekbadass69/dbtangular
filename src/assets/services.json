@@ -1,0 +1,53 @@
+{
+    "services": [
+      {
+        "name": "Branding",
+        "description": "A brand is a name, term, design, symbol or any other feature that distinguishes one seller's good or service from those of other sellers.",
+        "image": "../assets/Business-Branding.webp",
+        "url":"https://en.wikipedia.org/wiki/Brand"
+      },
+      {
+        "name": "E-commerce",
+        "description": "E-commerce (electronic commerce) is the activity of electronically buying or selling products on online services or over the Internet.",
+        "image": "../assets/eomerce.jpg",
+        "url": "https://en.wikipedia.org/wiki/E-commerce"
+      },
+      {
+        "name": "Web hosting",
+        "description": "A web hosting service is a type of Internet hosting service that hosts websites for clients, i.e. it offers the facilities required for them to create and maintain a site and makes it accessible on the World Wide Web. Companies providing web hosting services are sometimes called web hosts.",
+        "image": "../assets/shutterstock_559462321-scaled-1.jpg",
+        "url": "https://en.wikipedia.org/wiki/Web_hosting_service"
+        
+      },
+      {
+        "name": "Frontend and backend",
+        "description": "In software engineering, the terms frontend and backend (sometimes written as back end or back-end) refer to the separation of concerns between the presentation layer (frontend), and the data access layer (backend) of a piece of software, or the physical infrastructure or hardware. In the client–server model, the client is usually considered the frontend and the server is usually considered the backend, even when some presentation work is actually done on the server itself.",
+        "image": "../assets/0_RfvInMt7Z1TSCa8N.png",
+        "url": "https://en.wikipedia.org/wiki/Frontend_and_backend"
+      },
+      {
+        "name": "Web Design",
+        "description": "Plan, ideate, create, and build websites and web pages, many of which combine a number of visual elements including text, photos, graphics, and video clips. A Web Designer also oversees the design and layout, which can mean working on a brand new website or updating existing pages.",
+        "image": "../assets/What-does-a-Web-Designer-Do.jpg",
+        "url" : "https://en.wikipedia.org/wiki/Web_design"
+      },
+      {
+        "name": "ASP.net Core MVC",
+        "description": "The ASP.NET Core MVC framework is a lightweight, open source, highly testable presentation framework optimized for use with ASP.NET Core. ASP.NET Core MVC provides a patterns-based way to build dynamic websites that enables a clean separation of concerns.",
+        "image": "../assets/aspnetcoremvc.webp",
+        "url" : "https://en.wikipedia.org/wiki/ASP.NET_MVC"
+      },
+      {
+        "name": "ASP.net Web Forms",
+        "description": "ASP.NET Web Forms is a web application framework and one of several programming models supported by the Microsoft ASP.NET technology. Web Forms applications can be written in any programming language which supports the Common Language Runtime, such as C# or Visual Basic",
+        "image": "../assets/aspnetwebforms.webp",
+        "url" : "https://en.wikipedia.org/wiki/ASP.NET_Web_Forms"
+      },
+      {
+        "name": "Adobe Audition",
+        "description": "Adobe Audition is a digital audio workstation developed by Adobe Inc. featuring both a multitrack, non-destructive mix/edit environment and a destructive-approach waveform editing view.",
+        "image": "../assets/audtionLogo.webp",
+        "url" : "https://en.wikipedia.org/wiki/Adobe_Audition"
+      }
+    ]
+  }
