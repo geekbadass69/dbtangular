@@ -13,7 +13,8 @@
     "build:ssr": "ng build && ng run dbtwebsite:server",
     "prerender": "ng run dbtwebsite:prerender",
     "stop:ssr": "taskkill /F /IM node.exe",
-    "restart:ssr": "npm run stop:ssr && npm run start:ssr"
+    "restart:ssr": "npm run stop:ssr && npm run start:ssr",
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
