@@ -171,15 +171,15 @@ function app() {
         <meta name="keywords" content="contact, support, help">
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="DBTwebPro" />
-        <meta name="twitter:url" content="https://www.tonytrapp.com/services" />
+        <meta name="twitter:url" content="https://www.dbtweb.com/services" />
         <meta name="twitter:title" content="DBTWeb.com | Services | Learn about the services that dbtweb provides to you" />
         <meta name="twitter:description" content="Learn about the services that dbtweb provides to you" />
-        <meta name="twitter:image" content="https://www.tonytrapp.com/assets/dbtwebServices.jpg" />
+        <meta name="twitter:image" content="https://www.dbtweb.com/assets/dbtwebServices.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="DBTWeb.com | Services | Learn about the services that dbtweb provides to you" />
         <meta property="og:description" content="Learn about the services that dbtweb provides to you" />
-        <meta property="og:image" content="https://www.tonytrapp.com/assets/dbtwebServices.jpg" />
-        <meta property="og:url" content="https://www.tonytrapp.com/services" />
+        <meta property="og:image" content="https://www.dbtweb.com/assets/dbtwebServices.jpg" />
+        <meta property="og:url" content="https://www.dbtweb.com/services" />
         <meta property="og:site_name" content="dbtweb.com" />
       `;
         }
@@ -234,9 +234,23 @@ function app() {
         if (web) {
             //console.log('web data found:', web);
             const updatedImageUrl = web?.BigImage?.replace("..", "http://www.dbtweb.com");
-            //console.log(updatedImageUrl);
+            console.log(updatedImageUrl);
             metaTags = `
-        <title>${web?.name} | Portfolio | Web Sites | DBTWeb.com</title><meta name="description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com"><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:site" content="DBTwebPro" /><meta name="twitter:url" content="https://www.dbtweb.com/details/portfolio/${web?.url}" /><meta name="twitter:title" content="${web?.name} | Portfolio | Web Sites | DBTWeb.com" /><meta name="twitter:description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com" /><meta name="twitter:image" content="${updatedImageUrl}" /><meta property="og:type" content="website" /><meta property="og:title" content="${web?.name} | Portfolio | Web Sites | DBTWeb.com" /><meta property="og:description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com" /><meta property="og:image" content="${updatedImageUrl}" /><meta property="og:url" content="https://www.dbtweb.com/details/portfolio/${web?.url}" /><meta property="og:site_name" content="dbtweb.com" /><meta name="robots" content="INDEX, FOLLOW"/>
+    <title>${web?.name} | Port | Web Sites | DBTWeb.</title>
+        <meta name="description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com">
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="DBTwebPro" />
+        <meta name="twitter:url" content="https://www.dbtweb.com/details/portfolio/${web?.url}" />
+        <meta name="twitter:title" content="${web?.name} | Portfolio | Web Sites | DBTWeb.com" />
+        <meta name="twitter:description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com" />
+        <meta name="twitter:image" content="${updatedImageUrl}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="${web?.name} | Portfolio | Web Sites | DBTWeb.com" />
+        <meta property="og:description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com" />
+        <meta property="og:image" content="${updatedImageUrl}" />
+        <meta property="og:url" content="https://www.dbtweb.com/details/portfolio/${web?.url}" />
+        <meta property="og:site_name" content="dbtweb.com" />
+        <meta name="robots" content="INDEX, FOLLOW"/>
       `;
         }
         else {

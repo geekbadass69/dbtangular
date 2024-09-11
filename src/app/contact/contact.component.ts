@@ -7,6 +7,8 @@ import { HttpClient } from '@angular/common/http';
 import { InputMaskModule } from 'primeng/inputmask';
 import { InputTextModule } from 'primeng/inputtext';
 import { InputTextareaModule } from 'primeng/inputtextarea';
+import { DialogModule } from 'primeng/dialog';
+import { ToastModule } from 'primeng/toast';
 import { StateFlagsService } from '../servicesTwo/state-flags.service';
 
 interface Country {
@@ -18,7 +20,7 @@ interface Country {
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [FormsModule, DropdownModule, CommonModule, ReactiveFormsModule, InputMaskModule, InputTextModule, InputTextareaModule],
+  imports: [FormsModule, DropdownModule, CommonModule, ReactiveFormsModule, InputMaskModule, InputTextModule, InputTextareaModule, DialogModule, ToastModule],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })

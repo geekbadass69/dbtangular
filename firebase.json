@@ -10,9 +10,7 @@
     ]
   },
   "functions": {
-    "source": "functions/dist",
-    "predeploy": [
-    ]
+"source": "functions/dist"
   }
 }
 

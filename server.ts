@@ -63,10 +63,10 @@ export function app(): express.Express {
         <meta name="twitter:url" content="https://www.dbtweb.com/about" />
         <meta name="twitter:title" content="DBTWeb.com | About DBTWEB and The Founder C.E.O Tony Trapp" />
         <meta name="twitter:description" content="Learn about DBTWEB and it's history 20 years ago and the Founder C.E.O Tony Trapp" />
-        <meta name="twitter:image" content="https://www.dbtweb.com/images/dbtwebabout.jpg" /><meta property="og:type" content="website" />
+        <meta name="twitter:image" content="https://www.dbtweb.com/assets/dbtwebabout.jpg" /><meta property="og:type" content="website" />
         <meta property="og:title" content="DBTWeb.com | About DBTWEB and The Founder C.E.O Tony Trapp" />
         <meta property="og:description" content="Learn about DBTWEB and it's history 20 years ago and the Founder C.E.O Tony Trapp" />
-        <meta property="og:image" content="https://www.dbtweb.com/images/dbtwebabout.jpg" />
+        <meta property="og:image" content="https://www.dbtweb.com/assets/dbtwebabout.jpg" />
         <meta property="og:url" content="https://www.dbtweb.com/about" />
         <meta property="og:site_name" content="dbtweb.com" />
       `;
@@ -75,17 +75,18 @@ export function app(): express.Express {
         <title>Imagine the possabilities  | DBTweb.com</title>
         <meta name="description" content="DBT Web Productions is a renowned leader in Responsive web design. Our services include web site development, design, multimedia, broadcast video, 3D, animation and corporate identity. We design and develop quality media solutions for a large spectrum of clients including Fortune 1000, and international clients.">
         <meta name="keywords" content="home, welcome, website">
+        <meta property="og:type" content="website"/> 
+        <meta property="og:title" content="DBTweb.com | Imagine the possabilities"/> <meta property="og:description" content="DBT Web Productions is a renowned leader in Responsive web design. Our services include web site development, design, multimedia, broadcast video, 3D, animation and corporate identity. We design and develop quality media solutions for a large spectrum of clients including Fortune 1000, and international clients."/> 
+        <meta property="og:image" content="https://dbtweb.com/assets/dbtfrontpage.webp"/> 
+        <meta property="og:url" content="https://www.dbtweb.com"/> 
+        <meta property="og:site_name" content="dbtweb.com"/>
         <meta name="twitter:card" content="summary_large_image"/> 
         <meta name="twitter:site" content="DBTwebPro"/> 
         <meta name="twitter:url" content="https://www.dbtweb.com"/> 
         <meta name="twitter:title" content="DBTweb.com | Imagine the possabilities"/> 
         <meta name="twitter:description" content="DBT Web Productions is a renowned leader in Responsive web design. Our services include web site development, design, multimedia, broadcast video, 3D, animation and corporate identity. We design and develop quality media solutions for a large spectrum of clients including Fortune 1000, and international clients."/> 
-        <meta name="twitter:image" content="https://www.dbtweb.com/images/dbtwebhomepage22.jpg"/> 
-        <meta property="og:type" content="website"/> 
-        <meta property="og:title" content="DBTweb.com | Imagine the possabilities"/> <meta property="og:description" content="DBT Web Productions is a renowned leader in Responsive web design. Our services include web site development, design, multimedia, broadcast video, 3D, animation and corporate identity. We design and develop quality media solutions for a large spectrum of clients including Fortune 1000, and international clients."/> 
-        <meta property="og:image" content="https://www.dbtweb.com/images/dbtwebhomepage22.jpg"/> 
-        <meta property="og:url" content="https://www.dbtweb.com"/> 
-        <meta property="og:site_name" content="dbtweb.com"/>
+        <meta name="twitter:image" content="https://dbtweb.com/assets/dbtfrontpage.webp"/> 
+
         <meta name="robots" content="INDEX, FOLLOW"/>
       `;
     } else if (req.url === '/contact-DBT') {
@@ -93,18 +94,19 @@ export function app(): express.Express {
         <title>Contact Me Tony Trapp | DBTWeb.com </title>
         <meta name="description" content="Connect with me and Discuss new Opportunities for your new website.">
         <meta name="keywords" content="contact, support, help">
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="DBTwebPro" />
-        <meta name="twitter:url" content="https://www.dbtweb.com/contact" />
-        <meta name="twitter:title" content="DBTWeb.com | Contact Me" />
-        <meta name="twitter:description" content="Connect with me and Discuss new Opportunities for your new website." />
-        <meta name="twitter:image" content="https://www.dbtweb.com/images/dbtwebdisuss.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="DBTWeb.com | Contact Me" />
         <meta property="og:description" content="Connect with me and Discuss new Opportunities for your new website.." />
-        <meta property="og:image" content="https://www.dbtweb.com/images/dbtwebdisuss.jpg" />
-        <meta property="og:url" content="https://www.dbtweb.com/contact" />
+        <meta property="og:image" content="https://www.dbtweb.com/assets/dbtwebdisuss.jpg" />
+        <meta property="og:url" content="https://www.dbtweb.com/contact-DBT" />
         <meta property="og:site_name" content="dbtweb.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="DBTwebPro" />
+        <meta name="twitter:url" content="https://www.dbtweb.com/contact-DBT" />
+        <meta name="twitter:title" content="DBTWeb.com | Contact Me" />
+        <meta name="twitter:description" content="Connect with me and Discuss new Opportunities for your new website." />
+        <meta name="twitter:image" content="https://www.dbtweb.com/assets/dbtwebdisuss.jpg" />
+
       `;
     } else if (req.url === '/web') {
       metaTags = `
@@ -113,15 +115,15 @@ export function app(): express.Express {
         <meta name="keywords" content="contact, support, help">
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="DBTwebPro" />
-        <meta name="twitter:url" content="https://www.tonytrapp.com/web" />
+        <meta name="twitter:url" content="https://www.dbtweb.com/web" />
         <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites" />
         <meta name="twitter:description" content="See my portfolio browse all the sites and decide I am the designer for you." />
-        <meta name="twitter:image" content="https://www.tonytrapp.com/assets/dbtwebportfolioWeb.jpg" />
+        <meta name="twitter:image" content="https://www.dbtweb.com/assets/dbtwebportfolioWeb.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites" />
         <meta property="og:description" content="See my portfolio browse all the sites and decide I am the designer for you." />
-        <meta property="og:image" content="https://www.tonytrapp.com/assets/dbtwebportfolioWeb.jpg" />
-        <meta property="og:url" content="https://www.tonytrapp.com/web" />
+        <meta property="og:image" content="https://www.dbtweb.com/assets/dbtwebportfolioWeb.jpg" />
+        <meta property="og:url" content="https://www.dbtweb.com/web" />
         <meta property="og:site_name" content="dbtweb.com" />
       `;
       
@@ -133,15 +135,15 @@ export function app(): express.Express {
         <meta name="keywords" content="contact, support, help">
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="DBTwebPro" />
-        <meta name="twitter:url" content="https://www.tonytrapp.com/video" />
+        <meta name="twitter:url" content="https://www.dbtweb.com/video" />
         <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites" />
         <meta name="twitter:description" content="See all the videos I have made, play each one of them and decide I am the designer for you." />
-        <meta name="twitter:image" content="https://www.tonytrapp.com/assets/dbtwebportfolioVideoAudio.jpg" />
+        <meta name="twitter:image" content="https://www.dbtweb.com/assets/dbtwebportfolioVideoAudio.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites" />
         <meta property="og:description" content="See all the videos I have made, play each one of them and decide I am the designer for you." />
-        <meta property="og:image" content="https://www.tonytrapp.com/assets/dbtwebportfolioVideoAudio.jpg" />
-        <meta property="og:url" content="https://www.tonytrapp.com/video" />
+        <meta property="og:image" content="https://www.dbtweb.com/assets/dbtwebportfolioVideoAudio.jpg" />
+        <meta property="og:url" content="https://www.dbtweb.com/video" />
         <meta property="og:site_name" content="dbtweb.com" />
       `;
     }
@@ -152,15 +154,15 @@ export function app(): express.Express {
         <meta name="keywords" content="contact, support, help">
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="DBTwebPro" />
-        <meta name="twitter:url" content="https://www.tonytrapp.com/tech" />
+        <meta name="twitter:url" content="https://www.dbtweb.com/tech" />
         <meta name="twitter:title" content="Technologies | DBTWeb.com | Tech" />
         <meta name="twitter:description" content="Learn about the technologies that dbtweb works with." />
-        <meta name="twitter:image" content="https://www.dbtweb.com/images/dbtwebdisuss.jpg" />
+        <meta name="twitter:image" content="https://www.dbtweb.com/aasets/dbtwebdisuss.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Technologies | DBTWeb.com | Tech" />
         <meta property="og:description" content="Learn about the technologies that dbtweb works with." />
-        <meta property="og:image" content="https://www.dbtweb.com/images/dbtwebdisuss.jpg" />
-        <meta property="og:url" content="https://www.tonytrapp.com/tech" />
+        <meta property="og:image" content="https://www.dbtweb.com/assets/dbtwebdisuss.jpg" />
+        <meta property="og:url" content="https://www.dbtweb.com/tech" />
         <meta property="og:site_name" content="dbtweb.com" />
       `;
     }
@@ -171,15 +173,15 @@ export function app(): express.Express {
         <meta name="keywords" content="contact, support, help">
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="DBTwebPro" />
-        <meta name="twitter:url" content="https://www.tonytrapp.com/services" />
+        <meta name="twitter:url" content="https://www.dbtweb.com/services" />
         <meta name="twitter:title" content="DBTWeb.com | Services | Learn about the services that dbtweb provides to you" />
         <meta name="twitter:description" content="Learn about the services that dbtweb provides to you" />
-        <meta name="twitter:image" content="https://www.tonytrapp.com/assets/dbtwebServices.jpg" />
+        <meta name="twitter:image" content="https://www.dbtweb.com/assets/dbtwebServices.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="DBTWeb.com | Services | Learn about the services that dbtweb provides to you" />
         <meta property="og:description" content="Learn about the services that dbtweb provides to you" />
-        <meta property="og:image" content="https://www.tonytrapp.com/assets/dbtwebServices.jpg" />
-        <meta property="og:url" content="https://www.tonytrapp.com/services" />
+        <meta property="og:image" content="https://www.dbtweb.com/assets/dbtwebServices.jpg" />
+        <meta property="og:url" content="https://www.dbtweb.com/services" />
         <meta property="og:site_name" content="dbtweb.com" />
       `;
     }
@@ -242,9 +244,23 @@ export function app(): express.Express {
     if (web) {
       //console.log('web data found:', web);
       const updatedImageUrl = web?.BigImage?.replace("..", "http://www.dbtweb.com");
-      //console.log(updatedImageUrl);
+      console.log(updatedImageUrl);
       metaTags = `
-        <title>${web?.name} | Portfolio | Web Sites | DBTWeb.com</title><meta name="description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com"><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:site" content="DBTwebPro" /><meta name="twitter:url" content="https://www.dbtweb.com/details/portfolio/${web?.url}" /><meta name="twitter:title" content="${web?.name} | Portfolio | Web Sites | DBTWeb.com" /><meta name="twitter:description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com" /><meta name="twitter:image" content="${updatedImageUrl}" /><meta property="og:type" content="website" /><meta property="og:title" content="${web?.name} | Portfolio | Web Sites | DBTWeb.com" /><meta property="og:description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com" /><meta property="og:image" content="${updatedImageUrl}" /><meta property="og:url" content="https://www.dbtweb.com/details/portfolio/${web?.url}" /><meta property="og:site_name" content="dbtweb.com" /><meta name="robots" content="INDEX, FOLLOW"/>
+        <title>${web?.name} | Portfolio | Web Sites | DBTWeb.com</title>
+        <meta name="description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com">
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="${web?.name} | Portfolio | Web Sites | DBTWeb.com" />
+        <meta property="og:description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com" />
+        <meta property="og:image" content="${updatedImageUrl}" />
+        <meta property="og:url" content="https://www.dbtweb.com/details/portfolio/${web?.url}" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="DBTwebPro" />
+        <meta name="twitter:url" content="https://www.dbtweb.com/details/portfolio/${web?.url}" />
+        <meta name="twitter:title" content="${web?.name} | Portfolio | Web Sites | DBTWeb.com" />
+        <meta name="twitter:description" content="Portfolio Case Study for ${web?.name} at DBTWeb.com" />
+        <meta name="twitter:image" content="${updatedImageUrl}" />
+        <meta property="og:site_name" content="dbtweb.com" />
+        <meta name="robots" content="INDEX, FOLLOW"/>
       `;
     } else {
       console.log('No web site data found for:', WebUrlName);
@@ -446,197 +462,7 @@ if (moduleFilename === __filename || moduleFilename.includes('iisnode')) {
 
 export default bootstrap;
 
-//     //   `;
-//     // } else if (originalUrl.includes('/details/portfolio/jpmorgan')) {
-//     //   metaTags = `
-//     //     <title>DBTWeb.com | Portfolio | Web Sites | JPmorgan</title>
-//     //     <meta name="description" content="Portfolio Case Study for JPmorgan at DBTWeb.com">
-//     //     <meta name="keywords" content="contact, support, help">
-//     //     <meta name="twitter:card" content="summary_large_image" />
-//     //     <meta name="twitter:site" content="DBTwebPro" />
-//     //     <meta name="twitter:url" content="https://www.tonytrapp.com/details/portfolio/jpmorgan" />
-//     //     <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites | JPmorgan" />
-//     //     <meta name="twitter:description" content="Portfolio Case Study for JPmorgan at DBTWeb.com" />
-//     //     <meta name="twitter:image" content="https://www.tonytrapp.com/assets/jpmorgan.webp" />
-//     //     <meta property="og:type" content="website" />
-//     //     <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites | JPmorgan" />
-//     //     <meta property="og:description" content="Portfolio Case Study for JPmorgan at DBTWeb.com" />
-//     //     <meta property="og:image" content="https://www.tonytrapp.com/assets/jpmorgan.webp" />
-//     //     <meta property="og:url" content="https://www.tonytrapp.com/details/portfolio/jpmorgan" />
-//     //     <meta property="og:site_name" content="dbtweb.com" />
 
-//     //   `;
-//     // } else if (originalUrl.includes('/details/portfolio/andromedia')) {
-//     //   metaTags = `
-//     //     <title>DBTWeb.com | Portfolio | Web Sites | Andromeda</title>
-//     //     <meta name="description" content="Portfolio Case Study for Andromeda at DBTWeb.com">
-//     //     <meta name="keywords" content="contact, support, help">
-//     //     <meta name="twitter:card" content="summary_large_image" />
-//     //     <meta name="twitter:site" content="DBTwebPro" />
-//     //     <meta name="twitter:url" content="https://www.tonytrapp.com/details/portfolio/jpmorgan" />
-//     //     <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites | Andromeda" />
-//     //     <meta name="twitter:description" content="Portfolio Case Study for Andromeda at DBTWeb.com" />
-//     //     <meta name="twitter:image" content="https://www.tonytrapp.com/assets/andromeda.webp" />
-//     //     <meta property="og:type" content="website" />
-//     //     <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites | Andromeda" />
-//     //     <meta property="og:description" content="Portfolio Case Study for Andromeda at DBTWeb.com" />
-//     //     <meta property="og:image" content="https://www.tonytrapp.com/assets/andromeda.webp" />
-//     //     <meta property="og:url" content="https://www.tonytrapp.com/details/portfolio/jpmorgan" />
-//     //     <meta property="og:site_name" content="dbtweb.com" />
-
-//     //   `;
-//     // } else if (originalUrl.includes('/details/portfolio/mystique')) {
-//     //   metaTags = `
-//     //     <title>DBTWeb.com | Portfolio | Web Sites | Mystique</title>
-//     //     <meta name="description" content="Portfolio Case Study for Mystique Boutique at DBTWeb.com">
-//     //     <meta name="keywords" content="contact, support, help">
-//     //     <meta name="twitter:card" content="summary_large_image" />
-//     //     <meta name="twitter:site" content="DBTwebPro" />
-//     //     <meta name="twitter:url" content="https://www.tonytrapp.com/details/portfolio/mystique" />
-//     //     <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites | Mystique" />
-//     //     <meta name="twitter:description" content="Portfolio Case Study for Mystique Boutique at DBTWeb.com" />
-//     //     <meta name="twitter:image" content="https://www.tonytrapp.com/assets/mystqueboutiqe.jpg" />
-//     //     <meta property="og:type" content="website" />
-//     //     <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites | Mystique" />
-//     //     <meta property="og:description" content="Portfolio Case Study for Mystique Boutique at DBTWeb.com" />
-//     //     <meta property="og:image" content="https://www.tonytrapp.com/assets/mystqueboutiqe.jpg" />
-//     //     <meta property="og:url" content="https://www.tonytrapp.com/details/portfolio/mystique" />
-//     //     <meta property="og:site_name" content="dbtweb.com" />
-
-//     //   `;
-//     // } else if (originalUrl.includes('/details/portfolio/guardhill')) {
-//     //   metaTags = `
-//     //     <title>DBTWeb.com | Portfolio | Web Sites | Guardhill</title>
-//     //     <meta name="description" content="Portfolio Case Study for Guardhill at DBTWeb.com">
-//     //     <meta name="keywords" content="contact, support, help">
-//     //     <meta name="twitter:card" content="summary_large_image" />
-//     //     <meta name="twitter:site" content="DBTwebPro" />
-//     //     <meta name="twitter:url" content="https://www.tonytrapp.com/details/portfolio/Guardhill" />
-//     //     <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites | Guardhill" />
-//     //     <meta name="twitter:description" content="Portfolio Case Study for Guardhill at DBTWeb.com" />
-//     //     <meta name="twitter:image" content="https://www.tonytrapp.com/assets/guardhill.webp" />
-//     //     <meta property="og:type" content="website" />
-//     //     <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites | Guardhill" />
-//     //     <meta property="og:description" content="Portfolio Case Study for Guardhill at DBTWeb.com" />
-//     //     <meta property="og:image" content="https://www.tonytrapp.com/assets/guardhill.webp" />
-//     //     <meta property="og:url" content="https://www.tonytrapp.com/details/portfolio/Guardhill" />
-//     //     <meta property="og:site_name" content="dbtweb.com" />
-
-//     //   `;
-//     // } else if (originalUrl.includes('/details/portfolio/nuveen')) {
-//     //   metaTags = `
-//     //     <title>DBTWeb.com | Portfolio | Web Sites | Nuveen</title>
-//     //     <meta name="description" content="Portfolio Case Study for Nuveen at DBTWeb.com">
-//     //     <meta name="keywords" content="contact, support, help">
-//     //     <meta name="twitter:card" content="summary_large_image" />
-//     //     <meta name="twitter:site" content="DBTwebPro" />
-//     //     <meta name="twitter:url" content="https://www.tonytrapp.com/details/portfolio/nuveen" />
-//     //     <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites | Nuveen" />
-//     //     <meta name="twitter:description" content="Portfolio Case Study for Nuveen at DBTWeb.com" />
-//     //     <meta name="twitter:image" content="https://www.tonytrapp.com/assets/nuveen.webp" />
-//     //     <meta property="og:type" content="website" />
-//     //     <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites | Nuveen" />
-//     //     <meta property="og:description" content="Portfolio Case Study for Nuveen at DBTWeb.com" />
-//     //     <meta property="og:image" content="https://www.tonytrapp.com/assets/nuveen.webp" />
-//     //     <meta property="og:url" content="https://www.tonytrapp.com/details/portfolio/nuveen" />
-//     //     <meta property="og:site_name" content="dbtweb.com" />
-
-//     //   `;
-//     // } else if (originalUrl.includes('/details/portfolio/homedax')) {
-//     //   metaTags = `
-//     //     <title>DBTWeb.com | Portfolio | Web Sites | homedax</title>
-//     //     <meta name="description" content="Portfolio Case Study for homedax at DBTWeb.com">
-//     //     <meta name="keywords" content="contact, support, help">
-//     //     <meta name="twitter:card" content="summary_large_image" />
-//     //     <meta name="twitter:site" content="DBTwebPro" />
-//     //     <meta name="twitter:url" content="https://www.tonytrapp.com/details/portfolio/homedax" />
-//     //     <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites | homedax" />
-//     //     <meta name="twitter:description" content="Portfolio Case Study for homedax at DBTWeb.com" />
-//     //     <meta name="twitter:image" content="https://www.tonytrapp.com/assets/homedex.webp" />
-//     //     <meta property="og:type" content="website" />
-//     //     <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites | homedax" />
-//     //     <meta property="og:description" content="Portfolio Case Study for homedax at DBTWeb.com" />
-//     //     <meta property="og:image" content="https://www.tonytrapp.com/assets/homedex.webp" />
-//     //     <meta property="og:url" content="https://www.tonytrapp.com/details/portfolio/homedax" />
-//     //     <meta property="og:site_name" content="dbtweb.com" />
-
-//     //   `;
-//     // } else if (originalUrl.includes('/details/portfolio/ovation')) {
-//     //   metaTags = `
-//     //     <title>DBTWeb.com | Portfolio | Web Sites | ovation</title>
-//     //     <meta name="description" content="Portfolio Case Study for ovation at DBTWeb.com">
-//     //     <meta name="keywords" content="contact, support, help">
-//     //     <meta name="twitter:card" content="summary_large_image" />
-//     //     <meta name="twitter:site" content="DBTwebPro" />
-//     //     <meta name="twitter:url" content="https://www.tonytrapp.com/details/portfolio/ovation" />
-//     //     <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites | ovation" />
-//     //     <meta name="twitter:description" content="Portfolio Case Study for ovation at DBTWeb.com" />
-//     //     <meta name="twitter:image" content="https://www.tonytrapp.com/assets/ovation.jpg" />
-//     //     <meta property="og:type" content="website" />
-//     //     <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites | ovation" />
-//     //     <meta property="og:description" content="Portfolio Case Study for ovation at DBTWeb.com" />
-//     //     <meta property="og:image" content="https://www.tonytrapp.com/assets/ovation.jpg" />
-//     //     <meta property="og:url" content="https://www.tonytrapp.com/details/portfolio/ovation" />
-//     //     <meta property="og:site_name" content="dbtweb.com" />
-
-//     //   `;
-//     // } else if (originalUrl.includes('/details/portfolio/ceoservices')) {
-//     //   metaTags = `
-//     //     <title>DBTWeb.com | Portfolio | Web Sites | Ceo Services</title>
-//     //     <meta name="description" content="Portfolio Case Study for Ceo Services at DBTWeb.com">
-//     //     <meta name="keywords" content="contact, support, help">
-//     //     <meta name="twitter:card" content="summary_large_image" />
-//     //     <meta name="twitter:site" content="DBTwebPro" />
-//     //     <meta name="twitter:url" content="https://www.tonytrapp.com/details/portfolio/ceoservices" />
-//     //     <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites | Ceo Services" />
-//     //     <meta name="twitter:description" content="Portfolio Case Study for Ceo Services at DBTWeb.com" />
-//     //     <meta name="twitter:image" content="https://www.tonytrapp.com/assets/ceoserv.jpg" />
-//     //     <meta property="og:type" content="website" />
-//     //     <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites | Ceo Services" />
-//     //     <meta property="og:description" content="Portfolio Case Study for Ceo Services at DBTWeb.com" />
-//     //     <meta property="og:image" content="https://www.tonytrapp.com/assets/ceoserv.jpg" />
-//     //     <meta property="og:url" content="https://www.tonytrapp.com/details/portfolio/ceoservices" />
-//     //     <meta property="og:site_name" content="dbtweb.com" />
-
-//     //   `;
-//     // } else if (originalUrl.includes('/details/portfolio/infatuation')) {
-//     //   metaTags = `
-//     //     <title>DBTWeb.com | Portfolio | Web Sites | Ceo Services</title>
-//     //     <meta name="description" content="Portfolio Case Study for Infatuation Super Store at DBTWeb.com">
-//     //     <meta name="keywords" content="contact, support, help">
-//     //     <meta name="twitter:card" content="summary_large_image" />
-//     //     <meta name="twitter:site" content="DBTwebPro" />
-//     //     <meta name="twitter:url" content="https://www.tonytrapp.com/details/portfolio/infatuation" />
-//     //     <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites | Infatuation Super Store" />
-//     //     <meta name="twitter:description" content="Portfolio Case Study for Infatuation Super Store at DBTWeb.com" />
-//     //     <meta name="twitter:image" content="https://www.tonytrapp.com/assets/infatuation.jpg" />
-//     //     <meta property="og:type" content="website" />
-//     //     <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites | Infatuation Super Store" />
-//     //     <meta property="og:description" content="Portfolio Case Study for Infatuation Super Store at DBTWeb.com" />
-//     //     <meta property="og:image" content="https://www.tonytrapp.com/assets/infatuation.jpg" />
-//     //     <meta property="og:url" content="https://www.tonytrapp.com/details/portfolio/infatuation" />
-//     //     <meta property="og:site_name" content="dbtweb.com" />
-
-//     //   `;
-//     // } else if (originalUrl.includes('/details/portfolio/streamingedge')) {
-//     //   metaTags = `
-//     //     <title>DBTWeb.com | Portfolio | Web Sites | Ceo Services</title>
-//     //     <meta name="description" content="Portfolio Case Study for Streaming Edge at DBTWeb.com">
-//     //     <meta name="keywords" content="contact, support, help">
-//     //     <meta name="twitter:card" content="summary_large_image" />
-//     //     <meta name="twitter:site" content="DBTwebPro" />
-//     //     <meta name="twitter:url" content="https://www.tonytrapp.com/details/portfolio/streamingedge" />
-//     //     <meta name="twitter:title" content="DBTWeb.com | Portfolio | Web Sites | Streaming Edge" />
-//     //     <meta name="twitter:description" content="Portfolio Case Study for Streaming Edge at DBTWeb.com" />
-//     //     <meta name="twitter:image" content="https://www.tonytrapp.com/assets/streamingedge.jpg" />
-//     //     <meta property="og:type" content="website" />
-//     //     <meta property="og:title" content="DBTWeb.com | Portfolio | Web Sites | Streaming Edge" />
-//     //     <meta property="og:description" content="Portfolio Case Study for Streaming Edge at DBTWeb.com" />
-//     //     <meta property="og:image" content="https://www.tonytrapp.com/assets/streamingedge.jpg" />
-//     //     <meta property="og:url" content="https://www.tonytrapp.com/details/portfolio/streamingedge" />
-//     //     <meta property="og:site_name" content="dbtweb.com" />
-
-//     //   `;
 
 
 //     //   `;

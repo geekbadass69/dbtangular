@@ -99,9 +99,9 @@
       },
       {
         "name": "Angular",
-        "description": "AngularJS is a free and open-source JavaScript-based web framework for developing single-page applications. It was maintained mainly by Google and a community of individuals and corporations. It aimed to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in web applications and progressive web applications.",
+        "description": "Angular (also referred to as 'Angular 2+') is a TypeScript-based free and open-source single-page web application framework. It is developed by Google and by a community of individuals and corporations.",
         "image": "../assets/angular.jpg.png",
-        "url": "https://angular.dev/overview"
+        "url": "https://en.m.wikipedia.org/wiki/Angular_(web_framework)"
       },
       {
         "name": "Microsoft SQL Server",
