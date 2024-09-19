@@ -47,13 +47,14 @@ export class SidebarMenuComponent {
     }
   }
 
-  // closeCallback(event: Event): void {
-  //     this.sidebarRef.close(event);
-  // }
-
   closeSidebar() {
     this.sidebarVisible = false;
   }
+
+  // hideOverlay() {
+  //   const overlays = document.querySelectorAll('.p-component-overlay');
+  //   overlays.forEach(overlay => overlay.remove()); // Remove all overlay elements
+  // }
 
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent) {

@@ -19791,42 +19791,6 @@ ng .hero-banner-bg-19 {
 }
 
  
-//  .back-to-top {
-//      background-color: #1795cc;
-//      color: #fff;
-//      opacity: 0;
-//      transition: opacity .6s ease-in-out;
-//      z-index: 999;
-//      position: fixed;
-//      right: 20px;
-//      bottom: 20px;
-//      width: 50px;
-//      height: 50px;
-//      box-sizing: border-box;
-//      border-radius: 10px
-//  }
- 
-//  a.back-to-top {
-//      font-weight: 1000;
-//      letter-spacing: 2px;
-//      font-size: 14px;
-//      text-transform: uppercase;
-//      text-align: center;
-//      line-height: 1.6;
-//      padding-left: 2px;
-//      padding-top: 14px
-//  }
- 
-//  .back-to-top:hover,
-//  .back-to-top:focus,
-//  .back-to-top:visited {
-//      color: #fff
-//  }
- 
-//  .back-to-top.show {
-//      opacity: 1
-//  }
- 
  .rotating {
      display: inline-block;
      -webkit-transform-style: preserve-3d;
@@ -20586,5 +20550,80 @@ ng .hero-banner-bg-19 {
     }
     100% {
       background-image: url("assets/iStock-629285904-Blog-4379.jpg");
+    }
+  }
+  .p-dialog{
+    -webkit-box-shadow: -1px 7px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 11px -5px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 11px -5px rgba(0,0,0,0.75);
+  }
+  .p-dialog-header{
+    color: #FFF !important;
+    padding: 15px !important;
+    background-color: #000 !important;
+  }
+  .p-dialog-content{
+    background: rgb(23,149,204);
+    background: linear-gradient(355deg, rgba(23,149,204,0.8085609243697479) 0%, rgba(15,84,113,0.9248074229691877) 100%);
+    padding: 15px;
+  }
+  .ng-star-inserted{
+    color: #FFF !important;
+  }
+ .p-component-overlay {
+    background: rgb(2,0,36);
+    background: linear-gradient(355deg, rgba(2,0,36,1) 0%, rgba(15,207,246,0.5830707282913166) 100%);
+    // animation: fadeIn 0.5s ease-in-out;
+}
+.ng-tns-c3229452358-2{
+    color: #FFF !important;
+}
+.ng-tns-c3229452358-3{
+    color: #FFF !important;
+}
+.social-icon {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 10px;
+    transition: transform 0.3s, color 0.3s !important;
+  }
+/* Facebook Icon Hover */
+.social-icon.facebook:hover {
+    transform: scale(1.2) !important;
+    color: #3b5998 !important; /* Facebook blue */
+  }
+  
+  /* Twitter Icon Hover */
+  .social-icon.twitter:hover {
+    transform: scale(1.2) !important;
+    color: #00acee !important; /* Twitter blue */
+  }
+  
+  /* LinkedIn Icon Hover */
+  .social-icon.linkedin:hover {
+    transform: scale(1.2) !important;
+    color: #0e76a8 !important; /* LinkedIn blue */
+  }
+  
+  /* Instagram Icon Hover */
+  .social-icon.instagram:hover {
+    transform: scale(1.2) !important;
+    color: #e4405f !important; /* Instagram gradient red */
+  }
+  
+  /* YouTube Icon Hover */
+  .social-icon.youtube:hover {
+    transform: scale(1.2) !important;
+    color: #FF0000 !important; /* YouTube red */
+  }
+  .blur-text {
+    filter: blur(10px);
+    opacity: 0;
+    animation: blurIn 1.5s ease-out forwards; /* Trigger animation */
+  }
+  @keyframes blurIn {
+    to {
+      filter: blur(0px);
+      opacity: 1;
     }
   }
